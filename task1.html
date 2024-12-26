@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeepTech Frontend</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+        }
+
+        .tech-stack {
+            background-color: #e9ecef;
+            padding: 30px 0;
+        }
+
+        .about-section {
+            padding: 40px 0;
+            background-color: #f1f3f5;
+        }
+
+        .mindset-section {
+            padding: 40px 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .skills-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .skills-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Frontend Intern Position</h1>
+        </div>
+    </header>
+
+    <section class="tech-stack">
+        <div class="container">
+            <h2>Project Tech Stack</h2>
+            <div class="skills-list">
+                <div class="card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React.js</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <h2>About DeepTech</h2>
+            <div class="card">
+                <p>A Technology is considered to be DeepTech if a considerable amount of research has gone into it's development. DeepThought has researched Psychology to develop a new way of building EdTech applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mindset-section">
+        <div class="container">
+            <h2>DeepTech Mindset</h2>
+            <div class="card">
+                <p>Ability to comprehend new ideas, think abstract, brainstorm more, ask questions, be excited about new possibilities through Technology</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
